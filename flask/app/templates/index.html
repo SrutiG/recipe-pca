@@ -2,9 +2,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>PCA Recipes</title>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
 </head>
-<body>
+<script>
+    var margin = {top: 20, right: 20, bottom: 20, left: 20},
+        width = window.innerWidth/2 - margin.left - margin.right,
+        height = window.innerHeight - margin.top - margin.bottom
 
+
+    var svgPlot = d3.select("#chart").append("svg")
+        .attr("width", width + margin.left + margin.right)
+        .attr("height", height + margin.top + margin.bottom);
+
+    var ingredients = {{ ingredients_arr|safe }};
+
+</script>
+<body>
+    <div id="chart"></div>
 </body>
 </html>

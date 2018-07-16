@@ -6,6 +6,14 @@ import os
 '''
 Get Principal Components from ingredients csv
 https://towardsdatascience.com/pca-using-python-scikit-learn-e653f8989e60
+
+The csv contains ingredients related to each other by the number of times
+they have appeared in the same recipe
+
+This function uses PCA to reduce the n-d matrix of ingredients
+to a 2-d matrix of x and y values which can be graphed or separated
+into clusters
+
 '''
 def get_2d_ingredients():
     recipes_csv = pd.read_csv(os.path.join(os.getcwd(), 'app/recipes.csv'))
@@ -17,7 +25,6 @@ def get_2d_ingredients():
     principalDf = pd.DataFrame(data = principalComponents
                                , columns = ['x', 'y'])
     finalDf = pd.concat([principalDf, recipes_csv[['Ingredient']]], axis = 1)
-    print finalDf
-    return []
+    return finalDf.loc[:,['x', 'y', 'Ingredient']].values.tolist()
 
 
