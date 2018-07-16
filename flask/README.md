@@ -4,7 +4,7 @@
 
 #### 1. Clone this repository
 
-        git clone -b flask https://github.com/bkitano/recipe-pca.git
+        git clone -b flask https://github.com/SrutiG/recipe-pca.git
         
 #### 2. Navigate to the flask directory
 
