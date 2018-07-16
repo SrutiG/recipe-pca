@@ -1,0 +1,14 @@
+Ingredient,Potatoes,Asparagus,Garlic,Lemon,Salmon,Brown Sugar,Soy Sauce,Cider Vinegar,Chicken,Olive Oil,Honey,Basil,Oregano
+Potatoes,1,1,1,1,1,0,0,0,0,0,0,0,0
+Asparagus,1,1,1,1,1,0,0,0,0,0,0,0,0
+Garlic,1,1,2,2,2,1,1,1,1,1,1,0,0
+Lemon,1,1,2,2,2,1,1,0,1,0,0,1,1
+Salmon,1,1,2,2,2,1,1,0,0,0,0,0,0
+Brown Sugar,0,0,1,1,1,1,1,0,0,0,0,0,0
+Soy Sauce,0,0,1,1,1,1,1,0,0,0,0,0,0
+Cider Vinegar,0,0,1,0,0,0,0,1,1,1,1,0,0
+Chicken,0,0,1,1,0,0,0,1,2,2,1,1,1
+Olive Oil,0,0,1,0,0,0,0,1,2,2,1,1,1
+Honey,0,0,1,0,0,0,0,1,1,1,1,0,0
+Basil,0,0,0,1,0,0,0,0,1,1,0,1,1
+Oregano,0,0,0,1,0,0,0,0,1,1,0,1,1
